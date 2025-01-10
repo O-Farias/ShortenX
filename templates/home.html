@@ -10,12 +10,14 @@
     />
     <style>
       body {
-        background-color: #f8f9fa;
+        font-family: "Arial", sans-serif;
+        background: linear-gradient(135deg, #6a11cb, #2575fc);
+        color: #333;
+        margin: 0;
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100vh;
-        margin: 0;
       }
       .container {
         max-width: 600px;
@@ -26,17 +28,32 @@
         text-align: center;
       }
       .btn-submit {
-        background-color: #6f42c1;
+        background-color: #6a11cb;
         color: white;
         font-weight: bold;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
       }
       .btn-submit:hover {
-        background-color: #5a379e;
+        background-color: #2575fc;
+      }
+      input[type="url"] {
+        width: 100%;
+        padding: 10px;
+        margin: 20px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
       }
       footer {
         margin-top: 20px;
         font-size: 0.9rem;
         color: #6c757d;
+      }
+      .alert {
+        text-align: left;
       }
     </style>
   </head>
