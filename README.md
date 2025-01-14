@@ -34,7 +34,7 @@ ShortenX é uma aplicação simples e elegante para encurtar URLs de forma prát
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/ShortenX.git
+git clone https://github.com/O-Farias/ShortenX.git
 cd ShortenX
 ```
 
